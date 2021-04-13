@@ -1,6 +1,5 @@
 {-# LANGUAGE LambdaCase #-}
 
-import Control.Monad ((>=>))
 import Data.List (delete)
 import Data.Maybe (fromJust)
 import System.Directory (removeFile, renameFile)
