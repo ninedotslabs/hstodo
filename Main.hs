@@ -72,4 +72,8 @@ help :: Command
 help _ =
   putStrLn appName
     >> putStrLn appVersion
-    >> putStrLn ("Author: " ++ authorName)
+    >> putStrLn ("Author: " ++ authorName ++ "\n")
+    >> putStrLn "Usage : "
+    >> putStrLn "\n add todo.txt \"Swimming\""
+    >> putStrLn "\n view todo.txt"
+    >> putStrLn "\n remove todo.txt 1"
